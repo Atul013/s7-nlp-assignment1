@@ -1,0 +1,10 @@
+[
+  {
+    "label": "phishing",
+    "text": "Urgent: your account will be disabled. Verify your password at https://example.invalid/login"
+  },
+  {
+    "label": "benign",
+    "text": "Reminder: our project review is tomorrow at 10 AM. The agenda is in the shared calendar."
+  }
+]
