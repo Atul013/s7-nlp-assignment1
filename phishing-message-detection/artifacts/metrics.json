@@ -1,0 +1,87 @@
+{
+  "seed": 42,
+  "rows_after_deduplication": 200,
+  "duplicates_removed": 0,
+  "class_counts": {
+    "phishing": 100,
+    "benign": 100
+  },
+  "split_sizes": {
+    "train": 120,
+    "validation": 40,
+    "test": 40
+  },
+  "selected_pipeline": "nltk_preprocessed",
+  "selection_rule": "Highest validation F1; validation recall breaks ties.",
+  "results": {
+    "raw_text": {
+      "validation": {
+        "accuracy": 0.975,
+        "precision": 1.0,
+        "recall": 0.95,
+        "f1": 0.9743589743589743,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            1,
+            19
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.975,
+        "precision": 0.9523809523809523,
+        "recall": 1.0,
+        "f1": 0.975609756097561,
+        "confusion_matrix": [
+          [
+            19,
+            1
+          ],
+          [
+            0,
+            20
+          ]
+        ]
+      }
+    },
+    "nltk_preprocessed": {
+      "validation": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            20
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            0,
+            20
+          ]
+        ]
+      }
+    }
+  },
+  "test_error_count": 0
+}

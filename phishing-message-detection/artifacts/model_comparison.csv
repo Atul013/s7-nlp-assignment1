@@ -1,0 +1,5 @@
+pipeline,split,accuracy,precision,recall,f1
+raw_text,validation,0.975,1.0,0.95,0.9743589743589743
+raw_text,test,0.975,0.9523809523809523,1.0,0.975609756097561
+nltk_preprocessed,validation,1.0,1.0,1.0,1.0
+nltk_preprocessed,test,1.0,1.0,1.0,1.0
